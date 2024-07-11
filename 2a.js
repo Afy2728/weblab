@@ -22,6 +22,9 @@ function myfunc()
 }
 
 c=myfunc();
+if(c==="Bad Number")
+	document.getElementById("res").innerHTML = "bad number"
+else{
 var ans=c();
-
 document.getElementById("res").innerHTML=ans;
+}
