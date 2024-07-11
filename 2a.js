@@ -1,4 +1,4 @@
-[9:44 pm, 11/7/2024] Ajay Cse: function myfunc()
+function myfunc()
 {
     var num=parseFloat(prompt("Enter a number: ",0));
     var num=Math.trunc(num);
